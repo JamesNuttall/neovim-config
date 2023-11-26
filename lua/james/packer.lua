@@ -14,9 +14,9 @@ return require('packer').startup(function(use)
         requires = { { 'nvim-lua/plenary.nvim' } }
     })
 
-    --use {'nyoom-engineering/oxocarbon.nvim'}
-
-    use { 'tiagovla/tokyodark.nvim' }
+    use 'tiagovla/tokyodark.nvim'
+    use 'projekt0n/github-nvim-theme'
+    use 'wojciechkepka/vim-github-dark'
 
     use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
     use('theprimeagen/harpoon')

@@ -99,6 +99,11 @@ _G.packer_plugins = {
     path = "/Users/james/.local/share/nvim/site/pack/packer/opt/copilot.lua",
     url = "https://github.com/zbirenbaum/copilot.lua"
   },
+  ["github-nvim-theme"] = {
+    loaded = true,
+    path = "/Users/james/.local/share/nvim/site/pack/packer/start/github-nvim-theme",
+    url = "https://github.com/projekt0n/github-nvim-theme"
+  },
   harpoon = {
     loaded = true,
     path = "/Users/james/.local/share/nvim/site/pack/packer/start/harpoon",
@@ -178,6 +183,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/james/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-github-dark"] = {
+    loaded = true,
+    path = "/Users/james/.local/share/nvim/site/pack/packer/start/vim-github-dark",
+    url = "https://github.com/wojciechkepka/vim-github-dark"
   }
 }
 
